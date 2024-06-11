@@ -110,8 +110,7 @@ p{
 
 .bottom-container1 >div{
     padding-top: 50px;
-    width: 50%;
-    margin: auto;
+    margin: 50px;
 }
 .bottom-container1{
     background-color:#538392 ;
@@ -119,6 +118,38 @@ p{
     padding-bottom: 20px;  
     line-height: 2; 
 }
+
+.work-experience-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+    width: 100%;
+    text-align: left;
+    /* background-color: yellow; */
+}
+
+.work-experience-container div{
+    background-color: #6295A2;
+border-radius: 2%;
+padding: 50px; 
+/* width:500px; */
+}
+
+.work-experience{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
 .bottom-container2{
     background-color: #80B9AD;
     width:100%;
@@ -133,9 +164,9 @@ p{
     
 }
 
-/* .bottom-container1 a{
-    color: ;
-} */
+.real-life-projects a{
+    color:black ;
+}
 
 .bottom-container2 div a{
     
