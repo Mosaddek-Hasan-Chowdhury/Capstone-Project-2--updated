@@ -117,19 +117,28 @@ p{
     text-align: left;
 }
 
-.work-experience-container div{
+.work-experience{
     background-color: #6295A2;
     border-radius: 20px;
     padding: 50px; 
-    /* width:500px; */
-}
-
-.work-experience{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.rlp-container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    /* width: 40%; */
+}
+
+.rlp{
+    background-color: #6295A2;
+    border-radius: 20px;
+    padding: 50px; 
+}
 
 .bottom-container2{
     background-color: #80B9AD;
