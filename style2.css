@@ -46,7 +46,7 @@
 
 }
 .container3{
-    background-color: #559BD9;
+    background-color: #6295A2;
     padding-bottom: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -65,9 +65,11 @@
 }
 
 .container3 a{
-    background-color: #47FCF6;
+    background-color: #B3E2A7;
     border-radius: 5px;
-    padding: 5px;;
+    padding: 5px;
+    color: #6295A2;
+    text-decoration: none;
 }
 
 @media(max-width:598px){
