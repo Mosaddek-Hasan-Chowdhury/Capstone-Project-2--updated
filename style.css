@@ -213,5 +213,38 @@ footer{
         width: 80%;
         
     }
-
 }
+ 
+@media(max-width:971px){
+    .work-experience-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+    
+}
+
+@media(max-width:1143px){
+
+    .rlp-container{
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        text-align: left;
+    }
+}
+
+
+@media(max-width:724px){
+
+    .rlp-container{
+        grid-template-columns: 1fr;
+        text-align: left;
+    }
+    
+    .rlp{
+        width: 280px;
+        margin: auto;
+    }
+}
+
