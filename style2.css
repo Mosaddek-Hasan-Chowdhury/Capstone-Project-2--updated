@@ -106,6 +106,7 @@
     border-radius: 20px;
     padding: 20px; 
     margin-top: 50px;
+    margin-left: 20px;
 }
 
 @media(max-width:598px){
@@ -129,7 +130,7 @@
     }
 }
 
-@media(max-width:1280px){
+@media(max-width:1377px){
     .container3>div{
         display: flex;
         flex-direction: column;
