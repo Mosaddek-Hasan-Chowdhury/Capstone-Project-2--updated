@@ -107,6 +107,7 @@
     padding: 20px; 
     margin-top: 50px;
     margin-left: 20px;
+    /* width: 350px; */
 }
 
 @media(max-width:598px){
@@ -141,5 +142,11 @@
         height: 200px;
         width:300px;
         border-radius: 15%;
+    }
+}
+
+@media(max-width:632px){
+    .contact{
+        width: 350px;
     }
 }
