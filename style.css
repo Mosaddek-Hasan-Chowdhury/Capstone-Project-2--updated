@@ -95,6 +95,7 @@ p{
 
 .bottom-container1 >div{
     padding: 50px;
+    /* margin: auto; */
     
 }
 .work-experience-container{
@@ -220,6 +221,7 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 30px;
+        align-items: center;
     
     }
     
@@ -243,8 +245,21 @@ footer{
     }
     
     .rlp{
-        width: 280px;
+        width: 50%;
         margin: auto;
     }
 }
 
+@media(max-width:500px){
+    .bottom-container1 .red{
+    padding: 0px;
+    margin: auto;
+   }
+
+   /* .red{
+    padding: 0px;
+   } */
+    /* only using class red doesn't work we have to findout later using 
+    only combining seletors work */
+
+}
