@@ -124,6 +124,15 @@
     .container1 img{
         width:300px;
     }
+    .education{
+
+        margin-right: 0px;
+    }
+
+    .container1 h2 {
+        
+        margin-right: 0px
+    }
 
     .container2>div{
         width:90%;
