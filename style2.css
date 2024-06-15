@@ -157,5 +157,8 @@
 @media(max-width:632px){
     .contact{
         width: 350px;
+        padding: 20px 0px;
+        margin: auto;
     }
+    
 }
